@@ -1,6 +1,6 @@
 {
   "name": "Epiphany.InlineDocs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Decorate your Umbraco DocTypes with inline documentation",
   "license": "MIT",
   "author": {
