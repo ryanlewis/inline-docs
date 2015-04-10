@@ -1,0 +1,10 @@
+<div ng-controller="InlineDocsController" class="inline-docs">
+
+    <button type="button" ng-show="isAdmin" class="btn btn-mini" ng-class="{active: editing}" ng-click="editing = !editing">{{ !editing ? 'Show' : 'Hide' }} Editor</button>
+
+    <textarea ng-show="editing" ng-model="model.value">Place help content here.</textarea>
+
+    <a class="cheatsheet" ng-show="editing" href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a>
+
+    <div class="doc-output" ng-bind-html-unsafe="html"></div>
+</div>

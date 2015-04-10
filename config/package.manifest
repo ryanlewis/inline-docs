@@ -1,0 +1,29 @@
+{
+  "propertyEditors": [
+    {
+      "name": "Inline Docs",
+      "alias": "InlineDocs",
+      "editor": {
+        "valueType": "TEXT",
+        "view": "~/App_Plugins/InlineDocs/views/inline.docs.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "description": "Default text",
+            "key": "defaultText",
+            "label": "Default text",
+            "view": "textarea"
+          }
+        ]
+      }
+    }
+  ],
+  "css": [
+    "~/App_Plugins/Epiphany.InlineDocs/css/inline.docs.css"
+  ],
+  "javascript": [
+    "~/App_Plugins/Epiphany.InlineDocs/js/inline.docs.js"
+  ]
+}
+
