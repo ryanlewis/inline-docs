@@ -6,7 +6,7 @@
   "author": {
     "name": "Ryan Lewis",
     "email": "ryan@wpyz.org",
-    "url": ""
+    "url": "https://github.com/epiphanysearch/inline-docs"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
